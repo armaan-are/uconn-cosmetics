@@ -1,0 +1,89 @@
+/* Basic styling for the popup */
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: #242628;
+    color: #ffffff;
+    
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* Styling for the input fields and buttons */
+  input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0055af;
+  }
+  
+  /* Styling for status message */
+  #statusMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  /* Styling for the key-value list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    color: #000000
+  }
+  
+  li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:nth-child(even) {
+    background: #e0e0e0;
+  }
+  
+  /* Styling for the delete button */
+  .deleteButton {
+    padding: 2px 5px;
+    background-color: rgb(157, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .deleteButton:hover {
+    background-color: rgb(92, 0, 0);
+  }
+
+  select{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }

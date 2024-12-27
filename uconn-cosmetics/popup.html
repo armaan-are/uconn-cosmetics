@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Replacement Extension</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>UConn Cosmetics</h1>
+    <h4><a href="https://armaan-are.github.io/portfolio/" target="_blank" style="color: white;">Extension created by Armaan</a></h4>
+
+    <input type="checkbox" id="enableCosmetics" name="cosmeticsCheckbox" value="True">
+    Enable StudentAdmin & NetID Login color changes
+<br>
+<hr>
+  <h3>Manage Image Replacements</h3>
+
+  <input type="text" id="keyUrl" placeholder="Enter original image URL" />
+  
+  <!-- Dropdown menu between the input fields -->
+  <!--<select id="classDropdown">x
+  </select> -->
+  
+  <input type="text" id="valueUrl" placeholder="Enter replacement image URL" />
+  <button id="addPair">Replace Image</button>
+  <p id="statusMessage"></p>
+
+  <h3>Current Replacements</h3>
+  <ul id="keyValueList">
+    <!-- Key-Value pairs will be listed here -->
+  </ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
